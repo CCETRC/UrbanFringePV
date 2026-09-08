@@ -1,0 +1,21 @@
+name: urban-fringe-pv
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - earthengine-api
+  - fiona
+  - gdal
+  - geopandas
+  - matplotlib
+  - natsort
+  - netcdf4
+  - numpy
+  - pandas
+  - pyproj
+  - rasterio
+  - rioxarray
+  - shapely
+  - tqdm
+  - xarray
+  - datashader

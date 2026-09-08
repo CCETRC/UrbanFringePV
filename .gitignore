@@ -1,0 +1,46 @@
+# R session files
+.RData
+.RDataTmp
+.Rhistory
+.Rproj.user/
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Credentials and local configuration
+*.pem
+*.key
+.env
+.env.*
+credentials*.json
+service-account*.json
+
+# Local source data, generated outputs and unreleased working code
+input_data/
+output/
+pv_code/
+
+# WRF and WPS intermediate or restart files
+wrfout_*
+wrfrst_*
+met_em.*
+GRIBFILE.*
+FILE:*
+PFILE:*
+
+# Temporary, log and operating-system files
+*.tmp
+*.log
+.DS_Store
+._*
+__MACOSX/
+Thumbs.db
+
+# Manuscript review materials and recordings
+*.docx
+*.pptx
+*.m4a
+*.mp4
